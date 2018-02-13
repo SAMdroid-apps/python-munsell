@@ -44,5 +44,5 @@ Value: x y Y
 
 ### Intermediate Hues ###
 
-Intermediate hues are constructred by combining the principal hues. Example: YR Yellow-Red; GY Green-Yellow.
+Intermediate hues are constructed by combining the principal hues. Example: YR Yellow-Red; GY Green-Yellow.
 
