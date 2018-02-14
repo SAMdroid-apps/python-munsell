@@ -1,32 +1,9 @@
 # Python Munsell
 
-Python Munsell provides a MunsellColor object for Python.  The MunsellColor
-object can be used to represent munsell colors and convert them to RGB.
+Python Munsell provides a `MunsellColor` object for Python. The `MunsellColor`
+object can be used to represent Munsell colors and convert them to RGB.
 
-
-## Dictionary Structure ##
-
-The dictionary is keyed by the Munsell specification and returns the CIE xyY value where x and y define the hue in a two-dimensional plane and Y is the luminance. (The xyY variables are derived from CIE XYZ.)
-
-**Dict Object**
-
-Key: H V C
-
-Value: x y Y
-
-
-| Munsell Spec. | Definition            |
-| ------------: |:----------------------|
-| **H**         | Hue                   |
-| **V**         | Value (lightness)     |
-| **C**         | Chroma (color purity) |
-
-
-| CIE xyY       | Definition            |
-| ------------: |:----------------------|
-| **x**         | Chrominance           |
-| **y**         | Chrominance           |
-| **Y**         | Luminance             |
+The main code is defined on the package level in the \_\_init\_\_.py file. The color lookup table is located in table.py.
 
 ## Munsell Hue Notation ##
 
