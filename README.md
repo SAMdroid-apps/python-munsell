@@ -3,7 +3,7 @@
 Python Munsell provides a `MunsellColor` object for Python. The `MunsellColor`
 object can be used to represent Munsell colors and convert them to RGB.
 
-The main code is defined on the package level in the \_\_init\_\_.py file. The color lookup table is located in table.py.
+The main code is defined on the package level in the \_\_init\_\_.py file. The color lookup table is located in table.py. For more information, refer to the docstrings.
 
 ## Munsell Hue Notation ##
 
